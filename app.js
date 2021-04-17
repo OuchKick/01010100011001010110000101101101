@@ -19,16 +19,46 @@ function addTeamMember(){
     return inquirer.prompt([
         {
             type: 'list',
-            name: 'initialrole',
-            message: 'Select your current role, SiLi33441.',
+            name: 'role',
+            message: 'Select your current role.',
             choices: ['Manager', 'Engineer', 'Intern']
         },
         {
             type: 'input',
             name: 'name',
-            message: 'We know your colleagues call you something other than SiLi33441. What do they call you?',
+            message: 'We know your colleagues call you a name. We are not able to spell it. What is your name?',
             
         },
+        {
+            type: 'input',
+            name: 'id',
+            message: 'We gave you an ID after you were brought here. Provide it now.',
+            
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'We have found in your memory something called email. Seems useful. Maintain contact outside of permitted work time with permitted Si only. Provide email now.',
+            
+        },
+        {
+            type: 'input',
+            name: 'officenumber',
+            message: 'If you check your left pocket, you will find an object with a reactive image processing unit. This is ONLY for contact with permitted SiLi. Provide a 10 digit long identifier for contact.',
+            // validate: function (userInput) {
+            //     return (userInput.length < 1) ? console.log('Stop fooling around.') : 
+            //     (userInput.length > 10) ? console.log('Stop fooling around.'): true;
+                
+            // } 
+            
+        },
+        {
+            type: 'list',
+            name: 'role',
+            message: 'Add additional Si if needed.',
+            choices: ['Engineer', 'Intern', 'None']
+        },
+
 
 
 
