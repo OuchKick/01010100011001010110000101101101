@@ -1,6 +1,10 @@
 # Team Profile Generator ![badge](https://img.shields.io/badge/license-MIT-green.svg)
 
 
+Click [here](https://www.youtube.com/watch?v=oFOU7UWEH8w&ab_channel=AdamNotCheeseReed) to view video demonstrating function of application.
+
+
+
 # Overview
 
 ### Hello! With this Team Profile Generator, you can organize different members of your team just by answering questions in your terminal!
