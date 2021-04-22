@@ -1,7 +1,7 @@
 # Team Profile Generator ![badge](https://img.shields.io/badge/license-MIT-green.svg)
 
 
-Click [here](https://www.youtube.com/watch?v=oFOU7UWEH8w&ab_channel=AdamNotCheeseReed) to view video demonstrating function of application.
+Click [here](https://youtu.be/oFOU7UWEH8w) to view video demonstrating function of application.
 
 
 
